@@ -6,7 +6,9 @@ public class Library {
 
     public void addBook(int id, String title, String author) {
         books.add(new Book(id, title, author));
-        System.out.println("Book added successfully!");
+        System.out.println("____________________________");
+        System.out.println("| Book added successfully! |");
+        System.out.println("-----------------------------");
     }
 
     public void viewBooks() {
